@@ -1,0 +1,21 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "io.github.tropheusj.easy_dev.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "MinecraftServerMixin",
+    "SharedConstantsMixin"
+  ],
+  "client": [
+    "CreateWorldScreenAccessor",
+    "CreateWorldScreenMixin",
+    "MinecraftMixin",
+    "PresetFlatWorldScreenAccessor",
+    "TitleScreenMixin",
+    "WorldGenSettingsComponentAccessor"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

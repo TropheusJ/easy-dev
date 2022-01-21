@@ -1,11 +1,11 @@
-package io.github.tropheusj.modid;
+package io.github.tropheusj.easy_dev;
 
 import net.fabricmc.api.ModInitializer;
 
 import net.minecraft.resources.ResourceLocation;
 
-public class ExampleMod implements ModInitializer {
-	public static final String ID = "modid";
+public class EasyDev implements ModInitializer {
+	public static final String ID = "easy_dev";
 
 	@Override
 	public void onInitialize() {

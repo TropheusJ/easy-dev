@@ -1,26 +1,27 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "easy_dev",
   "version": "${version}",
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Easy Development",
+  "description": "Features useful for Fabric mod developers.",
   "authors": [
     "Tropheus Jay"
   ],
   "contact": {
-    "sources": "https://github.com/TropheusJ/fabric-example-mod"
+    "sources": "https://github.com/TropheusJ/easy-dev"
   },
   "license": "MIT",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/easy_dev/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
-      "io.github.tropheusj.modid.ExampleMod"
+      "io.github.tropheusj.easy_dev.EasyDev"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "easy_dev.mixins.json"
   ],
+  "accessWidener": "easy_dev.accesswidener",
   "depends": {
     "fabricloader": ">=0.12.12",
     "fabric": ">=0.46.1",

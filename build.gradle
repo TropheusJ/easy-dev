@@ -46,6 +46,10 @@ dependencies {
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
 }
 
+loom {
+	accessWidenerPath = file("src/main/resources/easy_dev.accesswidener")
+}
+
 processResources {
 	inputs.property "version", project.version
 

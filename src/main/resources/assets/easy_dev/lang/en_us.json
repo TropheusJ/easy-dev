@@ -1,0 +1,8 @@
+{
+  "easy_dev.dev_superflat.create": "Create Testing Superflat",
+  "easy_dev.dev_superflat.description.1": "Create a superflat world with just one click.",
+  "easy_dev.dev_superflat.description.2": "No daylight/weather cycles or fire ticks.",
+  "easy_dev.dev_superflat.description.3": "No mob or structure spawning.",
+  "easy_dev.dev_superflat.description.4": "Hard difficulty, 'Redstone Ready' preset.",
+  "easy_dev.reload_button": "Reload Resources"
+}
